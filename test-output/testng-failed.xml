@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation Testing]" parallel="tests">
+  <test thread-count="5" name="Functional Testing on rediff(failed)" parallel="tests">
+    <parameter name="Url" value="https://www.rediff.com/"/>
+    <parameter name="Browser" value="chrome"/>
+    <classes>
+      <class name="com.main.ReddiffCompare">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="reddiff" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.main.ReddiffCompare -->
+    </classes>
+  </test> <!-- Functional Testing on rediff(failed) -->
+</suite> <!-- Failed suite [Automation Testing] -->

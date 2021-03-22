@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[test passed]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation Testing" duration-ms="15711" started-at="2021-03-05T06:32:37Z" finished-at="2021-03-05T06:32:53Z">
+    <groups>
+    </groups>
+    <test name="Functional Testing on rediff" duration-ms="15711" started-at="2021-03-05T06:32:37Z" finished-at="2021-03-05T06:32:53Z">
+      <class name="com.main.ReddiffCompare">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:com.main.ReddiffCompare@239963d8]" name="setup" is-config="true" duration-ms="8484" started-at="2021-03-05T06:32:37Z" finished-at="2021-03-05T06:32:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.rediff.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="reddiff(java.lang.String, java.lang.String)[pri:1, instance:com.main.ReddiffCompare@239963d8]" name="reddiff" duration-ms="1129" started-at="2021-03-05T06:32:46Z" data-provider="getData" finished-at="2021-03-05T06:32:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Srikanth@1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Srikanth@1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[test passed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- reddiff -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.main.ReddiffCompare@239963d8]" name="teardown" is-config="true" duration-ms="6077" started-at="2021-03-05T06:32:47Z" finished-at="2021-03-05T06:32:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.main.ReddiffCompare -->
+    </test> <!-- Functional Testing on rediff -->
+  </suite> <!-- Automation Testing -->
+</testng-results>

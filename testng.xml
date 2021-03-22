@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Testing" parallel="tests" >
+  <!-- <test thread-count="5" name="Functional Testing on google">
+  <parameter name="Browser" value="chrome"/>
+  <parameter name="Url" value="https://www.google.com"/>
+    <classes>
+      <class name="com.main.AutoSuggest_001"/>
+    </classes>  
+  </test> --> 
+ 
+  <test thread-count="5" name="Functional Testing on rediff">
+  <parameter name="Browser" value="chrome"/>
+  <parameter name="Url" value="https://www.rediff.com/"/>
+    <classes>
+      <class name="com.main.ReddiffCompare"/>
+    </classes>  
+  </test> 
+ 
+ <!-- <test thread-count="5" name="Functional Testing on destinationQA">
+  <parameter name="Browser" value="chrome"/>
+  <parameter name="Url" value="http://destinationqa.com/aut/RadioButtons.html"/>
+    <classes>
+      <class name="com.main.TC_UserEventsOnCheckBox"/>
+    </classes>  
+  </test>  
+ 
+ <test thread-count="5" name="Functional Testing on ebay">
+  <parameter name="Browser" value="chrome"/>
+  <parameter name="Url" value="https://www.ebay.com"/>
+    <classes>
+      <class name="com.main.TC_EbayRegistration"/>
+    </classes>  
+  </test> -->
+ 
+ 
+ 
+</suite> <!-- Suite -->
+
+
